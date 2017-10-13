@@ -1,7 +1,6 @@
-package test;
+package weather;
 
 import org.junit.jupiter.api.Test;
-import weather.Weather;
 
 import java.util.Map;
 
