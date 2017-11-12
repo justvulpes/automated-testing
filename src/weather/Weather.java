@@ -9,12 +9,49 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
+import java.util.stream.Collectors;
+
+/*
+TODO: Vaheülesanne #1
+Mõtle välja kõikvõimalikud testid, mis on vajalikud projekti lahendamiseks.
+Implementeeri testid (programmikoodi ei ole) nii et testid ei läbi (on punases)
+ */
+
+/*
+TODO: Vaheülesanne #2
+Registreeri end https://openweathermap.org/api kasutajaks
+Kasuta APIsid, et saada praegune temperatuur ja 3 päeva ennustuse
+temperatuur (kasuta linnana Tallinn)
+Kirjuta realiseeriv programmikood, et implementeeritud testid läbiks. Tee teste
+juurde, kuniks oled tulemusega rahul. Refaktoreeri
+ */
+
+/*
+TODO: Vaheülesanne #3
+Muuda linn parametriseeritavaks
+Võimalus sisestada linna nimi ka konsoolist.
+Kasuta faili nimega input.txt kus on kirjas, mis linna kohta infot küsida
+Väljund kirjuta faili output.txt
+Täienda teste, refaktoreeri
+ */
+
+
+/*
+TODO: Vaheülesanne #4
+inpux.txt failis linna nimed,
+väljund (hetke ja ennustus) kirjutada faili {linnanimi}.txt
+testidega mockida välise sõltuvuse (APId) - Repeatable ehk testid peavad jooksma igas keskkonnas
+testidega mockida failist lugemise ja kirjutamise
+ */
 
 
 /**
@@ -22,21 +59,36 @@ import java.util.Map;
  */
 public class Weather {
     private final static String BASE = "http://api.openweathermap.org/data/2.5/";
-    private final static String API_POINT_WEATHER = "weather?id=";
-    private final static String API_POINT_FORECAST = "forecast?id=";
-    private final static String CITY = "588409";  // id of Tallinn
-    private final static String AND_APP_ID = "&APPID=";
+    private final static String API_POINT_WEATHER = "weather";
+    private final static String QUERY = "?q=";
+    private final static String ID = "?id=";
+    private final static String API_POINT_FORECAST = "forecast";
+    private final static String APPID = "&APPID=";
     private final static String DEV_KEY = "f17ef112f87d82f2c607d0676b4245e8";
-    private final static String AND_UNITS = "&units=metric";
+    private final static String UNITS = "&units=metric";
 
-    // todo: write result to file
 
-    public static void main(String[] args) {
-//        Weather weather = new Weather();
-//        System.out.println(BASE + API_POINT_WEATHER + CITY + AND_APP_ID + DEV_KEY + AND_UNITS);
-//        weather.parseCurrentTemperatureInTallinn(weather.getData(BASE + API_POINT_WEATHER + CITY + AND_APP_ID + DEV_KEY + AND_UNITS));
-//        weather.parseForecast(weather.getData(BASE + API_POINT_FORECAST + CITY + AND_APP_ID + DEV_KEY + AND_UNITS));
+    public static void main(String[] args) throws IOException {
 
+//        readStdInput();
+
+        String inFilename = "res/input.txt";
+        String outFilename = "res/output.txt";
+        List<String> data = Files.lines(Paths.get(inFilename)).collect(Collectors.toList());
+        for (String city: data) {
+            System.out.println(city);
+        }
+        Files.write(Paths.get(outFilename), data);
+    }
+
+    private static void readStdInput() {
+        Scanner s = new Scanner(System.in);
+        Weather weather = new Weather();
+        while (s.hasNextLine()) {
+            String city = s.nextLine();
+            weather.parseCurrentTemperature(weather.getData(
+                    BASE + API_POINT_WEATHER + QUERY + city + APPID + DEV_KEY + UNITS), city);
+        }
     }
 
     private BufferedReader getData(String apiPoint) {
@@ -55,13 +107,13 @@ public class Weather {
         return null;
     }
 
-    private void parseCurrentTemperatureInTallinn(BufferedReader br) {
+    private void parseCurrentTemperature(BufferedReader br, String city) {
         String output;
         try {
             while ((output = br.readLine()) != null) {
                 JSONObject jsonObject = new JSONObject(output);
                 int temp = jsonObject.getJSONObject("main").getInt("temp");
-                System.out.println("Current temperature in Tallinn: " + temp + "\u2103");
+                System.out.println(String.format("Current temperature in %s: ", city) + temp + "\u2103");
             }
         } catch (IOException | JSONException e) {
             e.printStackTrace();
