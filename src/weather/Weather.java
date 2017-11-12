@@ -11,10 +11,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.text.DateFormat;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
@@ -67,31 +65,45 @@ public class Weather {
     private final static String DEV_KEY = "f17ef112f87d82f2c607d0676b4245e8";
     private final static String UNITS = "&units=metric";
 
+    // http://api.openweathermap.org/data/2.5/weather?q=Tallinn&APPID=f17ef112f87d82f2c607d0676b4245e8&units=metric
 
-    public static void main(String[] args) throws IOException {
 
-//        readStdInput();
+    public static void main(String[] args) throws IOException, JSONException, ParseException {
 
+//        System.out.println(BASE + API_POINT_WEATHER + QUERY + "Tallinn" + APPID + DEV_KEY + UNITS);
+        readStdInput();
+//        fileInput();
+    }
+
+    private static void fileInput() throws IOException, JSONException, ParseException {
         String inFilename = "res/input.txt";
         String outFilename = "res/output.txt";
         List<String> data = Files.lines(Paths.get(inFilename)).collect(Collectors.toList());
+        List<String> weatherdata = new ArrayList<>();
+        Weather weather = new Weather();
         for (String city: data) {
-            System.out.println(city);
+            weatherdata.add(weather.parseCurrentTemperature(weather.getData(
+                    BASE + API_POINT_WEATHER + QUERY + city + APPID + DEV_KEY + UNITS), city));
+            weatherdata.add(weather.parseForecast(weather.getData(
+                    BASE + API_POINT_FORECAST + QUERY + city + APPID + DEV_KEY + UNITS), city));
         }
-        Files.write(Paths.get(outFilename), data);
+        Files.write(Paths.get(outFilename), weatherdata);
     }
 
-    private static void readStdInput() {
+    private static void readStdInput() throws IOException, JSONException, ParseException {
         Scanner s = new Scanner(System.in);
         Weather weather = new Weather();
         while (s.hasNextLine()) {
             String city = s.nextLine();
-            weather.parseCurrentTemperature(weather.getData(
-                    BASE + API_POINT_WEATHER + QUERY + city + APPID + DEV_KEY + UNITS), city);
+            System.out.println(weather.parseCurrentTemperature(weather.getData(
+                    BASE + API_POINT_WEATHER + QUERY + city + APPID + DEV_KEY + UNITS), city));
+
+            System.out.println(weather.parseForecast(weather.getData(
+                    BASE + API_POINT_FORECAST + QUERY + city + APPID + DEV_KEY + UNITS), city));
         }
     }
 
-    private BufferedReader getData(String apiPoint) {
+    public BufferedReader getData(String apiPoint) {
         try {
             URL url = new URL(apiPoint);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
@@ -107,39 +119,37 @@ public class Weather {
         return null;
     }
 
-    private void parseCurrentTemperature(BufferedReader br, String city) {
+    public String parseCurrentTemperature(BufferedReader br, String city) throws IOException, JSONException {
         String output;
-        try {
-            while ((output = br.readLine()) != null) {
-                JSONObject jsonObject = new JSONObject(output);
-                int temp = jsonObject.getJSONObject("main").getInt("temp");
-                System.out.println(String.format("Current temperature in %s: ", city) + temp + "\u2103");
-            }
-        } catch (IOException | JSONException e) {
-            e.printStackTrace();
+        int temp = 0;
+        if ((output = br.readLine()) != null) {
+            JSONObject jsonObject = new JSONObject(output);
+            temp = jsonObject.getJSONObject("main").getInt("temp");
         }
+        return String.format("Current temperature in %s: %d\u2103", city, temp);
     }
 
-    private void parseForecast(BufferedReader br) {
-        System.out.println("Current time: " + new Date());
+    public String parseForecast(BufferedReader br, String city) throws IOException, JSONException, ParseException {
         String output;
-        try {
-            while ((output = br.readLine()) != null) {
-                JSONObject jsonObject = new JSONObject(output);
-                JSONArray jsonArray = jsonObject.getJSONArray("list");
-                for (int i = 0; i < jsonArray.length(); i++) {
-                    String dateString = jsonArray.getJSONObject(i).getString("dt_txt");
-                    DateFormat df = new SimpleDateFormat("yyyy-mm-dd HH:MM:SS");
-                    Date startDate;  // this is glorious! :)
-                    startDate = df.parse(dateString);
-                    String newDateString = df.format(startDate);
-                    System.out.println(newDateString);
-//                    System.out.println(dateString);
-                }
+//        List<String> forecastData = new ArrayList<>();
+        StringBuilder result = new StringBuilder();
+        while ((output = br.readLine()) != null) {
+            JSONObject jsonObject = new JSONObject(output);
+            JSONArray jsonArray = jsonObject.getJSONArray("list");
+            for (int i = 0; i < jsonArray.length(); i++) {
+                int temperature = jsonArray.getJSONObject(i).getJSONObject("main").getInt("temp");
+                String dateString = jsonArray.getJSONObject(i).getString("dt_txt");
+                System.out.println(dateString);
+//                DateFormat df = new SimpleDateFormat("yyyy-mm-dd HH:MM:SS");
+//                Date startDate;
+//                startDate = df.parse(dateString);
+//                String newDateString = df.format(startDate);
+//                System.out.println(newDateString);
+                result.append(String.format("City: %s, Time: %s, Temperature: %d\u2103\n", city, dateString, temperature));
+//                forecastData.add(String.format("City: %s Time: %s, Temperature: %d", city, newDateString, temperature));
             }
-        } catch (IOException | JSONException | ParseException e) {
-            e.printStackTrace();
         }
+        return result.toString();
     }
 
     /**

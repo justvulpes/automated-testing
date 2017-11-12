@@ -1,4 +1,210 @@
-Bacon
-Cheese
-Rice
-Rom
+Current temperature in Tallinn: 3℃
+City: Tallinn, Time: 2017-11-13 00:00:00, Temperature: 3℃
+City: Tallinn, Time: 2017-11-13 03:00:00, Temperature: 3℃
+City: Tallinn, Time: 2017-11-13 06:00:00, Temperature: 2℃
+City: Tallinn, Time: 2017-11-13 09:00:00, Temperature: 4℃
+City: Tallinn, Time: 2017-11-13 12:00:00, Temperature: 5℃
+City: Tallinn, Time: 2017-11-13 15:00:00, Temperature: 4℃
+City: Tallinn, Time: 2017-11-13 18:00:00, Temperature: 4℃
+City: Tallinn, Time: 2017-11-13 21:00:00, Temperature: 4℃
+City: Tallinn, Time: 2017-11-14 00:00:00, Temperature: 3℃
+City: Tallinn, Time: 2017-11-14 03:00:00, Temperature: 3℃
+City: Tallinn, Time: 2017-11-14 06:00:00, Temperature: 3℃
+City: Tallinn, Time: 2017-11-14 09:00:00, Temperature: 5℃
+City: Tallinn, Time: 2017-11-14 12:00:00, Temperature: 5℃
+City: Tallinn, Time: 2017-11-14 15:00:00, Temperature: 4℃
+City: Tallinn, Time: 2017-11-14 18:00:00, Temperature: 3℃
+City: Tallinn, Time: 2017-11-14 21:00:00, Temperature: 3℃
+City: Tallinn, Time: 2017-11-15 00:00:00, Temperature: 3℃
+City: Tallinn, Time: 2017-11-15 03:00:00, Temperature: 5℃
+City: Tallinn, Time: 2017-11-15 06:00:00, Temperature: 4℃
+City: Tallinn, Time: 2017-11-15 09:00:00, Temperature: 6℃
+City: Tallinn, Time: 2017-11-15 12:00:00, Temperature: 6℃
+City: Tallinn, Time: 2017-11-15 15:00:00, Temperature: 6℃
+City: Tallinn, Time: 2017-11-15 18:00:00, Temperature: 6℃
+City: Tallinn, Time: 2017-11-15 21:00:00, Temperature: 5℃
+City: Tallinn, Time: 2017-11-16 00:00:00, Temperature: 5℃
+City: Tallinn, Time: 2017-11-16 03:00:00, Temperature: 5℃
+City: Tallinn, Time: 2017-11-16 06:00:00, Temperature: 4℃
+City: Tallinn, Time: 2017-11-16 09:00:00, Temperature: 5℃
+City: Tallinn, Time: 2017-11-16 12:00:00, Temperature: 5℃
+City: Tallinn, Time: 2017-11-16 15:00:00, Temperature: 5℃
+City: Tallinn, Time: 2017-11-16 18:00:00, Temperature: 4℃
+City: Tallinn, Time: 2017-11-16 21:00:00, Temperature: 3℃
+City: Tallinn, Time: 2017-11-17 00:00:00, Temperature: 2℃
+City: Tallinn, Time: 2017-11-17 03:00:00, Temperature: 1℃
+City: Tallinn, Time: 2017-11-17 06:00:00, Temperature: 0℃
+City: Tallinn, Time: 2017-11-17 09:00:00, Temperature: 2℃
+City: Tallinn, Time: 2017-11-17 12:00:00, Temperature: 4℃
+City: Tallinn, Time: 2017-11-17 15:00:00, Temperature: 3℃
+City: Tallinn, Time: 2017-11-17 18:00:00, Temperature: 3℃
+City: Tallinn, Time: 2017-11-17 21:00:00, Temperature: 2℃
+
+Current temperature in New York: 7℃
+City: New York, Time: 2017-11-13 00:00:00, Temperature: 2℃
+City: New York, Time: 2017-11-13 03:00:00, Temperature: 1℃
+City: New York, Time: 2017-11-13 06:00:00, Temperature: 2℃
+City: New York, Time: 2017-11-13 09:00:00, Temperature: 2℃
+City: New York, Time: 2017-11-13 12:00:00, Temperature: 2℃
+City: New York, Time: 2017-11-13 15:00:00, Temperature: 6℃
+City: New York, Time: 2017-11-13 18:00:00, Temperature: 6℃
+City: New York, Time: 2017-11-13 21:00:00, Temperature: 6℃
+City: New York, Time: 2017-11-14 00:00:00, Temperature: 2℃
+City: New York, Time: 2017-11-14 03:00:00, Temperature: 2℃
+City: New York, Time: 2017-11-14 06:00:00, Temperature: 2℃
+City: New York, Time: 2017-11-14 09:00:00, Temperature: 2℃
+City: New York, Time: 2017-11-14 12:00:00, Temperature: 1℃
+City: New York, Time: 2017-11-14 15:00:00, Temperature: 5℃
+City: New York, Time: 2017-11-14 18:00:00, Temperature: 7℃
+City: New York, Time: 2017-11-14 21:00:00, Temperature: 6℃
+City: New York, Time: 2017-11-15 00:00:00, Temperature: 4℃
+City: New York, Time: 2017-11-15 03:00:00, Temperature: 3℃
+City: New York, Time: 2017-11-15 06:00:00, Temperature: 3℃
+City: New York, Time: 2017-11-15 09:00:00, Temperature: 2℃
+City: New York, Time: 2017-11-15 12:00:00, Temperature: 1℃
+City: New York, Time: 2017-11-15 15:00:00, Temperature: 5℃
+City: New York, Time: 2017-11-15 18:00:00, Temperature: 8℃
+City: New York, Time: 2017-11-15 21:00:00, Temperature: 9℃
+City: New York, Time: 2017-11-16 00:00:00, Temperature: 6℃
+City: New York, Time: 2017-11-16 03:00:00, Temperature: 8℃
+City: New York, Time: 2017-11-16 06:00:00, Temperature: 9℃
+City: New York, Time: 2017-11-16 09:00:00, Temperature: 9℃
+City: New York, Time: 2017-11-16 12:00:00, Temperature: 8℃
+City: New York, Time: 2017-11-16 15:00:00, Temperature: 9℃
+City: New York, Time: 2017-11-16 18:00:00, Temperature: 12℃
+City: New York, Time: 2017-11-16 21:00:00, Temperature: 11℃
+City: New York, Time: 2017-11-17 00:00:00, Temperature: 8℃
+City: New York, Time: 2017-11-17 03:00:00, Temperature: 6℃
+City: New York, Time: 2017-11-17 06:00:00, Temperature: 4℃
+City: New York, Time: 2017-11-17 09:00:00, Temperature: 2℃
+City: New York, Time: 2017-11-17 12:00:00, Temperature: 0℃
+City: New York, Time: 2017-11-17 15:00:00, Temperature: 1℃
+City: New York, Time: 2017-11-17 18:00:00, Temperature: 3℃
+City: New York, Time: 2017-11-17 21:00:00, Temperature: 2℃
+
+Current temperature in Oslo: 4℃
+City: Oslo, Time: 2017-11-13 00:00:00, Temperature: 3℃
+City: Oslo, Time: 2017-11-13 03:00:00, Temperature: 2℃
+City: Oslo, Time: 2017-11-13 06:00:00, Temperature: 1℃
+City: Oslo, Time: 2017-11-13 09:00:00, Temperature: 0℃
+City: Oslo, Time: 2017-11-13 12:00:00, Temperature: 2℃
+City: Oslo, Time: 2017-11-13 15:00:00, Temperature: 0℃
+City: Oslo, Time: 2017-11-13 18:00:00, Temperature: -4℃
+City: Oslo, Time: 2017-11-13 21:00:00, Temperature: -5℃
+City: Oslo, Time: 2017-11-14 00:00:00, Temperature: -6℃
+City: Oslo, Time: 2017-11-14 03:00:00, Temperature: -5℃
+City: Oslo, Time: 2017-11-14 06:00:00, Temperature: -3℃
+City: Oslo, Time: 2017-11-14 09:00:00, Temperature: -1℃
+City: Oslo, Time: 2017-11-14 12:00:00, Temperature: 0℃
+City: Oslo, Time: 2017-11-14 15:00:00, Temperature: -2℃
+City: Oslo, Time: 2017-11-14 18:00:00, Temperature: -4℃
+City: Oslo, Time: 2017-11-14 21:00:00, Temperature: -4℃
+City: Oslo, Time: 2017-11-15 00:00:00, Temperature: -5℃
+City: Oslo, Time: 2017-11-15 03:00:00, Temperature: -1℃
+City: Oslo, Time: 2017-11-15 06:00:00, Temperature: 0℃
+City: Oslo, Time: 2017-11-15 09:00:00, Temperature: 2℃
+City: Oslo, Time: 2017-11-15 12:00:00, Temperature: 4℃
+City: Oslo, Time: 2017-11-15 15:00:00, Temperature: 2℃
+City: Oslo, Time: 2017-11-15 18:00:00, Temperature: 0℃
+City: Oslo, Time: 2017-11-15 21:00:00, Temperature: -1℃
+City: Oslo, Time: 2017-11-16 00:00:00, Temperature: -2℃
+City: Oslo, Time: 2017-11-16 03:00:00, Temperature: -3℃
+City: Oslo, Time: 2017-11-16 06:00:00, Temperature: -4℃
+City: Oslo, Time: 2017-11-16 09:00:00, Temperature: -3℃
+City: Oslo, Time: 2017-11-16 12:00:00, Temperature: 1℃
+City: Oslo, Time: 2017-11-16 15:00:00, Temperature: 2℃
+City: Oslo, Time: 2017-11-16 18:00:00, Temperature: 4℃
+City: Oslo, Time: 2017-11-16 21:00:00, Temperature: 4℃
+City: Oslo, Time: 2017-11-17 00:00:00, Temperature: 5℃
+City: Oslo, Time: 2017-11-17 03:00:00, Temperature: 5℃
+City: Oslo, Time: 2017-11-17 06:00:00, Temperature: 6℃
+City: Oslo, Time: 2017-11-17 09:00:00, Temperature: 5℃
+City: Oslo, Time: 2017-11-17 12:00:00, Temperature: 5℃
+City: Oslo, Time: 2017-11-17 15:00:00, Temperature: 2℃
+City: Oslo, Time: 2017-11-17 18:00:00, Temperature: 0℃
+City: Oslo, Time: 2017-11-17 21:00:00, Temperature: 0℃
+
+Current temperature in Moscow: 1℃
+City: Moscow, Time: 2017-11-13 00:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-13 03:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-13 06:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-13 09:00:00, Temperature: 1℃
+City: Moscow, Time: 2017-11-13 12:00:00, Temperature: 1℃
+City: Moscow, Time: 2017-11-13 15:00:00, Temperature: -1℃
+City: Moscow, Time: 2017-11-13 18:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-13 21:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-14 00:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-14 03:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-14 06:00:00, Temperature: 2℃
+City: Moscow, Time: 2017-11-14 09:00:00, Temperature: 6℃
+City: Moscow, Time: 2017-11-14 12:00:00, Temperature: 7℃
+City: Moscow, Time: 2017-11-14 15:00:00, Temperature: 1℃
+City: Moscow, Time: 2017-11-14 18:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-14 21:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-15 00:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-15 03:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-15 06:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-15 09:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-15 12:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-15 15:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-15 18:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-15 21:00:00, Temperature: 2℃
+City: Moscow, Time: 2017-11-16 00:00:00, Temperature: 1℃
+City: Moscow, Time: 2017-11-16 03:00:00, Temperature: 1℃
+City: Moscow, Time: 2017-11-16 06:00:00, Temperature: 1℃
+City: Moscow, Time: 2017-11-16 09:00:00, Temperature: 2℃
+City: Moscow, Time: 2017-11-16 12:00:00, Temperature: 3℃
+City: Moscow, Time: 2017-11-16 15:00:00, Temperature: 2℃
+City: Moscow, Time: 2017-11-16 18:00:00, Temperature: 2℃
+City: Moscow, Time: 2017-11-16 21:00:00, Temperature: 2℃
+City: Moscow, Time: 2017-11-17 00:00:00, Temperature: 1℃
+City: Moscow, Time: 2017-11-17 03:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-17 06:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-17 09:00:00, Temperature: 1℃
+City: Moscow, Time: 2017-11-17 12:00:00, Temperature: 1℃
+City: Moscow, Time: 2017-11-17 15:00:00, Temperature: 0℃
+City: Moscow, Time: 2017-11-17 18:00:00, Temperature: -2℃
+City: Moscow, Time: 2017-11-17 21:00:00, Temperature: -5℃
+
+Current temperature in Paris: 6℃
+City: Paris, Time: 2017-11-13 00:00:00, Temperature: 6℃
+City: Paris, Time: 2017-11-13 03:00:00, Temperature: 6℃
+City: Paris, Time: 2017-11-13 06:00:00, Temperature: 6℃
+City: Paris, Time: 2017-11-13 09:00:00, Temperature: 6℃
+City: Paris, Time: 2017-11-13 12:00:00, Temperature: 8℃
+City: Paris, Time: 2017-11-13 15:00:00, Temperature: 8℃
+City: Paris, Time: 2017-11-13 18:00:00, Temperature: 7℃
+City: Paris, Time: 2017-11-13 21:00:00, Temperature: 5℃
+City: Paris, Time: 2017-11-14 00:00:00, Temperature: 4℃
+City: Paris, Time: 2017-11-14 03:00:00, Temperature: 4℃
+City: Paris, Time: 2017-11-14 06:00:00, Temperature: 3℃
+City: Paris, Time: 2017-11-14 09:00:00, Temperature: 5℃
+City: Paris, Time: 2017-11-14 12:00:00, Temperature: 9℃
+City: Paris, Time: 2017-11-14 15:00:00, Temperature: 9℃
+City: Paris, Time: 2017-11-14 18:00:00, Temperature: 6℃
+City: Paris, Time: 2017-11-14 21:00:00, Temperature: 4℃
+City: Paris, Time: 2017-11-15 00:00:00, Temperature: 3℃
+City: Paris, Time: 2017-11-15 03:00:00, Temperature: 2℃
+City: Paris, Time: 2017-11-15 06:00:00, Temperature: 1℃
+City: Paris, Time: 2017-11-15 09:00:00, Temperature: 5℃
+City: Paris, Time: 2017-11-15 12:00:00, Temperature: 9℃
+City: Paris, Time: 2017-11-15 15:00:00, Temperature: 10℃
+City: Paris, Time: 2017-11-15 18:00:00, Temperature: 4℃
+City: Paris, Time: 2017-11-15 21:00:00, Temperature: 2℃
+City: Paris, Time: 2017-11-16 00:00:00, Temperature: 0℃
+City: Paris, Time: 2017-11-16 03:00:00, Temperature: 0℃
+City: Paris, Time: 2017-11-16 06:00:00, Temperature: 1℃
+City: Paris, Time: 2017-11-16 09:00:00, Temperature: 4℃
+City: Paris, Time: 2017-11-16 12:00:00, Temperature: 8℃
+City: Paris, Time: 2017-11-16 15:00:00, Temperature: 9℃
+City: Paris, Time: 2017-11-16 18:00:00, Temperature: 4℃
+City: Paris, Time: 2017-11-16 21:00:00, Temperature: 2℃
+City: Paris, Time: 2017-11-17 00:00:00, Temperature: 1℃
+City: Paris, Time: 2017-11-17 03:00:00, Temperature: 2℃
+City: Paris, Time: 2017-11-17 06:00:00, Temperature: 5℃
+City: Paris, Time: 2017-11-17 09:00:00, Temperature: 6℃
+City: Paris, Time: 2017-11-17 12:00:00, Temperature: 8℃
+City: Paris, Time: 2017-11-17 15:00:00, Temperature: 8℃
+City: Paris, Time: 2017-11-17 18:00:00, Temperature: 3℃
+City: Paris, Time: 2017-11-17 21:00:00, Temperature: 2℃
+

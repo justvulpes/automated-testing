@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc8e50c5-19b4-4bd7-91cf-f455a70ebff0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/java_json.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AT01/AT01.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AT01/weather/Weather.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/AT01/weather/WeatherTest.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AT01/src/exceptions/WeatherReportNotFoundException.java" afterPath="$PROJECT_DIR$/src/exceptions/WeatherReportNotFoundException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AT01/src/utility/Constants.java" afterPath="$PROJECT_DIR$/src/utility/Constants.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AT01/src/utility/HttpRequest.java" afterPath="$PROJECT_DIR$/src/utility/HttpRequest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AT01/src/weather/Weather.java" afterPath="$PROJECT_DIR$/src/weather/Weather.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AT01/test/weather/WeatherTest.java" afterPath="$PROJECT_DIR$/test/weather/WeatherTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/automated-testing.iml" afterPath="$PROJECT_DIR$/automated-testing.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/input.txt" afterPath="$PROJECT_DIR$/res/input.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/output.txt" afterPath="$PROJECT_DIR$/res/output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/weather/Weather.java" afterPath="$PROJECT_DIR$/src/weather/Weather.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/weather/WeatherTest.java" afterPath="$PROJECT_DIR$/test/weather/WeatherTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="output.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/output.txt">
+      <file leaf-file-name="WeatherTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/weather/WeatherTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="284">
+              <caret line="51" column="11" lean-forward="true" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -48,6 +41,13 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>system.o</find>
+      <find>Current temp</find>
+      <find>JSONO</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,8 +67,10 @@
         <option value="$PROJECT_DIR$/AT01/src/weather/Weather.java" />
         <option value="$PROJECT_DIR$/AT01/src/input/txt.java" />
         <option value="$PROJECT_DIR$/resources/input.txt" />
-        <option value="$PROJECT_DIR$/src/weather/Weather.java" />
         <option value="$PROJECT_DIR$/res/input.txt" />
+        <option value="$PROJECT_DIR$/src/weather/Weather.java" />
+        <option value="$PROJECT_DIR$/res/test_data1.json" />
+        <option value="$PROJECT_DIR$/test/weather/WeatherTest.java" />
       </list>
     </option>
   </component>
@@ -180,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Weather">
+  <component name="RunManager" selected="JUnit.WeatherTest.getCurrentTemperatureTooLow">
     <configuration name="Weather" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -250,19 +252,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="WeatherTest.getMaxMinOfNext3DaysProperAmountOfData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WeatherTest.getCurrentTemperatureTooLow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="weather.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="AT01" />
+      <module name="automated-testing" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="weather" />
       <option name="MAIN_CLASS_NAME" value="weather.WeatherTest" />
-      <option name="METHOD_NAME" value="getMaxMinOfNext3DaysProperAmountOfData" />
+      <option name="METHOD_NAME" value="getCurrentTemperatureTooLow" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -383,17 +385,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Weather" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.WeatherTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.WeatherTest.getMaxMinOfNext3DaysProperAmountOfData" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.WeatherTest.getMaxMinOfNext3DaysTooBigChange" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.WeatherTest.getCoordsPossible" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.WeatherTest.getMaxMinOfNext3DaysTooBigChange" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.WeatherTest.getCoordsPossible" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.WeatherTest.getCurrentTemperatureTooLow" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Weather" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.WeatherTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.WeatherTest.getCoordsPossible" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.WeatherTest.getMaxMinOfNext3DaysTooBigChange" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.WeatherTest.getMaxMinOfNext3DaysProperAmountOfData" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.WeatherTest.getCurrentTemperatureTooLow" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Weather" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.WeatherTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.WeatherTest.getCoordsPossible" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.WeatherTest.getMaxMinOfNext3DaysTooBigChange" />
       </list>
     </recent_temporary>
   </component>
@@ -411,44 +413,44 @@
       <workItem from="1506282714534" duration="17680000" />
       <workItem from="1507886179509" duration="5309000" />
       <workItem from="1508224307151" duration="63000" />
-      <workItem from="1510497166438" duration="5399000" />
+      <workItem from="1510497166438" duration="10111000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WeatherTest - 2017.10.13 at 22h 30m 42s.xml">
-      <configuration name="WeatherTest" configurationId="JUnit" />
+    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 15m 50s.xml">
+      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherTest - 2017.11.12 at 16h 47m 56s.xml">
-      <configuration name="WeatherTest" configurationId="JUnit" />
+    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 16m 02s.xml">
+      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherTest_getCoordsPossible - 2017.09.26 at 10h 51m 59s.xml">
-      <configuration name="WeatherTest.getCoordsPossible" configurationId="JUnit" />
+    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 16m 19s.xml">
+      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherTest_getCoordsPossible - 2017.09.26 at 10h 52m 07s.xml">
-      <configuration name="WeatherTest.getCoordsPossible" configurationId="JUnit" />
+    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 16m 30s.xml">
+      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherTest_getCoordsPossible - 2017.09.26 at 10h 52m 18s.xml">
-      <configuration name="WeatherTest.getCoordsPossible" configurationId="JUnit" />
+    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 16m 38s.xml">
+      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherTest_getCoordsPossible - 2017.09.26 at 10h 52m 22s.xml">
-      <configuration name="WeatherTest.getCoordsPossible" configurationId="JUnit" />
+    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 17m 05s.xml">
+      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherTest_getMaxMinOfNext3DaysTooBigChange - 2017.09.26 at 10h 43m 41s.xml">
-      <configuration name="WeatherTest.getMaxMinOfNext3DaysTooBigChange" configurationId="JUnit" />
+    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 18m 35s.xml">
+      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherTest_getMaxMinOfNext3DaysTooBigChange - 2017.09.26 at 10h 43m 44s.xml">
-      <configuration name="WeatherTest.getMaxMinOfNext3DaysTooBigChange" configurationId="JUnit" />
+    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 18m 50s.xml">
+      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherTest_getMaxMinOfNext3DaysTooBigChange - 2017.09.26 at 10h 43m 51s.xml">
-      <configuration name="WeatherTest.getMaxMinOfNext3DaysTooBigChange" configurationId="JUnit" />
+    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 19m 09s.xml">
+      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherTest_getMaxMinOfNext3DaysTooBigChange - 2017.09.26 at 10h 43m 55s.xml">
-      <configuration name="WeatherTest.getMaxMinOfNext3DaysTooBigChange" configurationId="JUnit" />
+    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 19m 26s.xml">
+      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33161000" />
+    <option name="totallyTimeSpent" value="37873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -462,7 +464,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.51285344" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31351352" sideWeight="0.48971722" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31351352" sideWeight="0.48971722" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17432432" sideWeight="0.4922879" order="7" side_tool="false" content_ui="tabs" />
@@ -501,17 +503,19 @@
         <state relative-caret-position="620">
           <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
           <folding>
-            <marker date="1510502570975" expanded="true" signature="25:536" ph="..." />
-            <marker date="1510502570975" expanded="true" signature="1557:1582" ph="/**...*/" />
-            <marker date="1510502570975" expanded="true" signature="2158:2511" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="2552:2884" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="2938:3536" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="3611:4063" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="4115:5071" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="5077:5130" ph="/**...*/" />
-            <marker date="1510502570975" expanded="true" signature="5196:5485" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="5533:5577" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="5622:5720" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="25:477" ph="..." />
+            <marker date="1510524562409" expanded="true" signature="1498:1523" ph="/**...*/" />
+            <marker date="1510524562409" expanded="true" signature="2247:2404" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="2492:3218" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="3309:3829" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="3882:4480" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="4590:4909" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="5025:6218" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="5627:5907" ph="//..." />
+            <marker date="1510524562409" expanded="true" signature="6224:6277" ph="/**...*/" />
+            <marker date="1510524562409" expanded="true" signature="6343:6632" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="6680:6724" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="6769:6867" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -521,17 +525,19 @@
         <state relative-caret-position="620">
           <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
           <folding>
-            <marker date="1510502570975" expanded="true" signature="25:536" ph="..." />
-            <marker date="1510502570975" expanded="true" signature="1557:1582" ph="/**...*/" />
-            <marker date="1510502570975" expanded="true" signature="2158:2511" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="2552:2884" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="2938:3536" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="3611:4063" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="4115:5071" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="5077:5130" ph="/**...*/" />
-            <marker date="1510502570975" expanded="true" signature="5196:5485" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="5533:5577" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="5622:5720" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="25:477" ph="..." />
+            <marker date="1510524562409" expanded="true" signature="1498:1523" ph="/**...*/" />
+            <marker date="1510524562409" expanded="true" signature="2247:2404" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="2492:3218" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="3309:3829" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="3882:4480" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="4590:4909" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="5025:6218" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="5627:5907" ph="//..." />
+            <marker date="1510524562409" expanded="true" signature="6224:6277" ph="/**...*/" />
+            <marker date="1510524562409" expanded="true" signature="6343:6632" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="6680:6724" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="6769:6867" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -541,17 +547,19 @@
         <state relative-caret-position="2220">
           <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
           <folding>
-            <marker date="1510502570975" expanded="true" signature="25:536" ph="..." />
-            <marker date="1510502570975" expanded="true" signature="1557:1582" ph="/**...*/" />
-            <marker date="1510502570975" expanded="true" signature="2158:2511" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="2552:2884" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="2938:3536" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="3611:4063" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="4115:5071" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="5077:5130" ph="/**...*/" />
-            <marker date="1510502570975" expanded="true" signature="5196:5485" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="5533:5577" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="5622:5720" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="25:477" ph="..." />
+            <marker date="1510524562409" expanded="true" signature="1498:1523" ph="/**...*/" />
+            <marker date="1510524562409" expanded="true" signature="2247:2404" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="2492:3218" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="3309:3829" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="3882:4480" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="4590:4909" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="5025:6218" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="5627:5907" ph="//..." />
+            <marker date="1510524562409" expanded="true" signature="6224:6277" ph="/**...*/" />
+            <marker date="1510524562409" expanded="true" signature="6343:6632" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="6680:6724" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="6769:6867" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -603,59 +611,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/weather/WeatherTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <marker date="1507887238441" expanded="true" signature="25:256" ph="..." />
-            <marker date="1507887238441" expanded="true" signature="258:283" ph="/**...*/" />
-            <marker date="1507887238441" expanded="true" signature="316:363" ph="/**...*/" />
-            <marker date="1507887238441" expanded="true" signature="501:621" ph="{...}" />
-            <marker date="1507887238441" expanded="true" signature="673:793" ph="{...}" />
-            <marker date="1507887238441" expanded="true" signature="799:893" ph="/**...*/" />
-            <marker date="1507887238441" expanded="true" signature="952:1147" ph="{...}" />
-            <marker date="1507887238441" expanded="true" signature="1209:1461" ph="{...}" />
-            <marker date="1507887238441" expanded="true" signature="1512:1754" ph="{...}" />
-            <marker date="1507887238441" expanded="true" signature="1804:2046" ph="{...}" />
-            <marker date="1507887238441" expanded="true" signature="2102:2594" ph="{...}" />
-            <marker date="1507887238441" expanded="true" signature="2635:2923" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/weather/Weather.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="75" column="32" lean-forward="false" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
-          <folding>
-            <marker date="1510502570975" expanded="true" signature="25:536" ph="..." />
-            <marker date="1510502570975" expanded="true" signature="1557:1582" ph="/**...*/" />
-            <marker date="1510502570975" expanded="true" signature="2158:2511" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="2552:2884" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="2938:3536" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="3611:4063" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="4115:5071" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="5077:5130" ph="/**...*/" />
-            <marker date="1510502570975" expanded="true" signature="5196:5485" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="5533:5577" ph="{...}" />
-            <marker date="1510502570975" expanded="true" signature="5622:5720" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        <state relative-caret-position="80">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/output.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="100">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weather/Weather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="119" column="5" lean-forward="true" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+          <folding>
+            <marker date="1510524562409" expanded="true" signature="25:477" ph="..." />
+            <marker date="1510524562409" expanded="true" signature="1498:1523" ph="/**...*/" />
+            <marker date="1510524562409" expanded="true" signature="2247:2404" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="2492:3218" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="3309:3829" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="3882:4480" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="4590:4909" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="5025:6218" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="5627:5907" ph="//..." />
+            <marker date="1510524562409" expanded="true" signature="6224:6277" ph="/**...*/" />
+            <marker date="1510524562409" expanded="true" signature="6343:6632" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="6680:6724" ph="{...}" />
+            <marker date="1510524562409" expanded="true" signature="6769:6867" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/test_data1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/weather/WeatherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="51" column="11" lean-forward="true" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
           <folding />
         </state>
       </provider>

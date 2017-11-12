@@ -1,12 +1,20 @@
 package weather;
 
+import org.json.JSONException;
 import org.junit.jupiter.api.Test;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 /**
  * @author Ragnar
@@ -17,10 +25,38 @@ public class WeatherTest {
     public static final int MAX_TEMP = 50;
     public static final int MIN_TEMP = -50;
 
+    private final static String BASE = "http://api.openweathermap.org/data/2.5/";
+    private final static String API_POINT_WEATHER = "weather";
+    private final static String QUERY = "?q=";
+    private final static String ID = "?id=";
+    private final static String API_POINT_FORECAST = "forecast";
+    private final static String APPID = "&APPID=";
+    private final static String DEV_KEY = "f17ef112f87d82f2c607d0676b4245e8";
+    private final static String UNITS = "&units=metric";
+
     @Test
-    void getCurrentTemperatureTooLow() {
+    void getCurrentTemperatureTooLow() throws IOException, JSONException {
         Weather weather = new Weather();
-        assertFalse(weather.getCurrentTemperatureTallinn() < MIN_TEMP);
+        Weather mockedWeather = mock(Weather.class);
+
+        when(mockedWeather.getData(BASE + API_POINT_WEATHER + QUERY + "Tallinn" + APPID + DEV_KEY + UNITS)).thenReturn(new BufferedReader(new InputStreamReader(Files.newInputStream(Paths.get("res/test_data1.json")))));
+//        BufferedReader br = mockedWeather.getData(BASE + API_POINT_WEATHER + QUERY + "Tallinn" + APPID + DEV_KEY + UNITS);
+//        JSONObject jsonObject = new JSONObject();
+//        System.out.println(jsonObject);
+//        while (true) {
+//            String data = br.readLine();
+//            if (data == null || Objects.equals(data, "")) {
+//                break;
+//            }
+//            System.out.println(data);
+//        }
+//        System.out.println(mockedWeather.getData(BASE + API_POINT_WEATHER + QUERY + "Tallinn" + APPID + DEV_KEY + UNITS).readLine());
+        // TODO: Method should return int, not String
+//        System.out.println(weather.parseCurrentTemperature(mockedWeather.getData(BASE + API_POINT_WEATHER + QUERY + "Tallinn" + APPID + DEV_KEY + UNITS), "Tallinn"));
+        String result = weather.parseCurrentTemperature(mockedWeather.getData(BASE + API_POINT_WEATHER + QUERY + "Tallinn" + APPID + DEV_KEY + UNITS), "Tallinn");
+        String[] pcs = result.split(":");
+        int temp = Integer.parseInt(String.valueOf(pcs[1].trim().charAt(0)));
+        assertFalse(temp < MIN_TEMP);
     }
 
     @Test
@@ -90,4 +126,5 @@ public class WeatherTest {
         assertTrue(weather.getCoords().get("lon") < 180.0);
         assertTrue(weather.getCoords().get("lon") > -180.0);
     }
+
 }
