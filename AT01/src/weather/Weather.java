@@ -29,11 +29,13 @@ public class Weather {
     private final static String DEV_KEY = "f17ef112f87d82f2c607d0676b4245e8";
     private final static String AND_UNITS = "&units=metric";
 
+    // todo: write result to file
 
     public static void main(String[] args) {
-        Weather weather = new Weather();
-        weather.parseCurrentTemperatureInTallinn(weather.getData(BASE + API_POINT_WEATHER + CITY + AND_APP_ID + DEV_KEY + AND_UNITS));
-        weather.parseForecast(weather.getData(BASE + API_POINT_FORECAST + CITY + AND_APP_ID + DEV_KEY + AND_UNITS));
+//        Weather weather = new Weather();
+//        System.out.println(BASE + API_POINT_WEATHER + CITY + AND_APP_ID + DEV_KEY + AND_UNITS);
+//        weather.parseCurrentTemperatureInTallinn(weather.getData(BASE + API_POINT_WEATHER + CITY + AND_APP_ID + DEV_KEY + AND_UNITS));
+//        weather.parseForecast(weather.getData(BASE + API_POINT_FORECAST + CITY + AND_APP_ID + DEV_KEY + AND_UNITS));
 
     }
 
@@ -89,7 +91,7 @@ public class Weather {
     }
 
     /**
-     * Get the
+     * Get the MaxMinList of next 3 days.
      */
     public List<Map<String, Integer>> getMaxMinListOfNext3Days() {
         // example
