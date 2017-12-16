@@ -1,0 +1,8 @@
+City: Mexico City
+Coordinates: lat: 19.43, lon: -99.13
+Current temperature: 23℃
+
+Forecast for the next 3 days:
+2017-12-16: min temp: 22℃, max temp: 22℃
+2017-12-17: min temp: -1℃, max temp: 19℃
+2017-12-18: min temp: 1℃, max temp: 19℃

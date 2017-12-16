@@ -1,0 +1,42 @@
+{
+  "coord": {
+    "lon": 24.75,
+    "lat": 59.44
+  },
+  "weather": [
+    {
+      "id": 300,
+      "main": "Drizzle",
+      "description": "light intensity drizzle",
+      "icon": "09n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 2,
+    "pressure": 1011,
+    "humidity": 100,
+    "temp_min": 2,
+    "temp_max": 2
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 5.7,
+    "deg": 200
+  },
+  "clouds": {
+    "all": 90
+  },
+  "dt": 1512265800,
+  "sys": {
+    "type": 1,
+    "id": 5014,
+    "message": 0.0039,
+    "country": "EE",
+    "sunrise": 1512284132,
+    "sunset": 1512307552
+  },
+  "id": 588409,
+  "name": "Tallinn",
+  "cod": 200
+}

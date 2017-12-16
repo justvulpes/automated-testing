@@ -1,0 +1,8 @@
+City: Tallinn
+Coordinates: lat: 59.44, lon: 24.75
+Current temperature: 1℃
+
+Forecast for the next 3 days:
+2017-12-16: min temp: 0℃, max temp: 0℃
+2017-12-17: min temp: -5℃, max temp: 1℃
+2017-12-18: min temp: -4℃, max temp: 0℃

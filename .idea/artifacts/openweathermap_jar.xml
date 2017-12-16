@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="openweathermap:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/openweathermap_jar</output-path>
+    <root id="root">
+      <element id="archive" name="openweathermap.jar">
+        <element id="module-output" name="openweathermap" />
+      </element>
+      <element id="library" level="project" name="Maven: org.json:json:20160810" />
+      <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
+      <element id="library" level="project" name="Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" />
+      <element id="library" level="project" name="Maven: junit:junit:4.12" />
+    </root>
+  </artifact>
+</component>

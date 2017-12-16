@@ -1,0 +1,8 @@
+City: test
+Coordinates: lat: 59.44, lon: 24.75
+Current temperature: 2℃
+
+Forecast for the next 3 days:
+2017-12-04: min temp: 0℃, max temp: 0℃
+2017-12-05: min temp: 0℃, max temp: 3℃
+2017-12-06: min temp: 1℃, max temp: 2℃

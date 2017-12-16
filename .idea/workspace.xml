@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc8e50c5-19b4-4bd7-91cf-f455a70ebff0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/input.txt" afterPath="$PROJECT_DIR$/res/input.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/output.txt" afterPath="$PROJECT_DIR$/res/output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/weather/Weather.java" afterPath="$PROJECT_DIR$/src/weather/Weather.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/weather/WeatherTest.java" afterPath="$PROJECT_DIR$/test/weather/WeatherTest.java" />
-    </list>
+    <list default="true" id="ea9bec5a-4fca-42ec-82a0-6b67a75bc7e2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,17 +12,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/automated_testing$Weather.coverage" NAME="Weather Coverage Results" MODIFIED="1506412411122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>weather.*</FILTER>
+    <SUITE FILE_PATH="coverage/openweathermap$WeatherReportTest.coverage" NAME="WeatherReportTest Coverage Results" MODIFIED="1513437035170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>openweathermap.report.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/openweathermap$openweathermap_api_weatherclient_in_openweathermap.coverage" NAME="openweathermap.api.weatherclient in openweathermap Coverage Results" MODIFIED="1513379924036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>openweathermap.api.weatherclient.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/openweathermap$All_in_openweathermap.coverage" NAME="All in openweathermap Coverage Results" MODIFIED="1513456703286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/openweathermap$model___and_13_more.coverage" NAME="model.* and 13 more Coverage Results" MODIFIED="1513384025971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/openweathermap$UrlConnectionWeatherClientTest.coverage" NAME="UrlConnectionWeatherClientTest Coverage Results" MODIFIED="1513383579870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>openweathermap.api.weatherclient.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WeatherTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/weather/WeatherTest.java">
+      <file leaf-file-name="WeatherController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/openweathermap/weather/WeatherController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="51" column="11" lean-forward="true" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+            <state relative-caret-position="220">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -38,19 +44,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>system.o</find>
-      <find>Current temp</find>
-      <find>JSONO</find>
+      <find>print</find>
+      <find>syste</find>
+      <find>syst</find>
+      <find>sys</find>
+      <find>client</find>
     </findStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -60,17 +67,39 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AT01/src/Main.java" />
-        <option value="$PROJECT_DIR$/AT01/src/test/WeatherTest.java" />
-        <option value="$PROJECT_DIR$/AT01/src/weather/WeatherReportNotFoundException.java" />
-        <option value="$PROJECT_DIR$/AT01/src/exceptions/WeatherReportNotFoundException.java" />
-        <option value="$PROJECT_DIR$/AT01/src/weather/Weather.java" />
-        <option value="$PROJECT_DIR$/AT01/src/input/txt.java" />
-        <option value="$PROJECT_DIR$/resources/input.txt" />
-        <option value="$PROJECT_DIR$/res/input.txt" />
-        <option value="$PROJECT_DIR$/src/weather/Weather.java" />
-        <option value="$PROJECT_DIR$/res/test_data1.json" />
-        <option value="$PROJECT_DIR$/test/weather/WeatherTest.java" />
+        <option value="$PROJECT_DIR$/src/main/res/weatherout/Tallinn.txt" />
+        <option value="$PROJECT_DIR$/src/main/res/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/src/main/java/exceptions/A.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exceptions/MockA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/openweathermap/api/weatherclient/HttpURLWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/openweathermap/api/weatherclient/UrlConnectionWeatherClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/openweathermap/report/Forecast.java" />
+        <option value="$PROJECT_DIR$/src/test/java/openweathermap/report/ForecastTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/openweathermap/report/CurrentWeatherTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/openweathermap/report/CurrentWeather.java" />
+        <option value="$PROJECT_DIR$/src/main/java/openweathermap/api/weatherclient/URLWrapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/openweathermap/api/query/QueryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/openweathermap/api/query/Query.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utility/Console.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utility/ConsoleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/model/CoordinateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/openweathermap/weather/WeatherController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/openweathermap/weather/WeatherControllerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/openweathermap/interact/Interact.java" />
+        <option value="$PROJECT_DIR$/src/test/java/openweathermap/api/weatherclient/UrlConnectionWeatherClientTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/openweathermap/report/WeatherReportTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/openweathermap/weather/WeatherTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Coordinate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/openweathermap/report/WeatherReport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/openweathermap/input/StandardInput.java" />
+        <option value="$PROJECT_DIR$/src/test/java/openweathermap/input/StandardInputTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/openweathermap/weather/Weather.java" />
+        <option value="$PROJECT_DIR$/src/main/res/test_data/test.txt" />
+        <option value="$PROJECT_DIR$/src/main/res/test_data/xtest.txt" />
+        <option value="$PROJECT_DIR$/src/main/res/test_data/wreport.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/openweathermap/input/FileInputTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/openweathermap/input/FileInput.java" />
       </list>
     </option>
   </component>
@@ -83,11 +112,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="y" value="-18" />
-    <option name="width" value="1616" />
+    <option name="width" value="1612" />
     <option name="height" value="876" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -105,69 +131,261 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="automated-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automated-testing" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automated-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automated-testing" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="weatherclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automated-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automated-testing" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="test_data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automated-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automated-testing" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="weatherout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automated-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automated-testing" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automated-testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automated-testing" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="query" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="weatherclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
               <item name="weather" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openweathermap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openweathermap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JSON" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="9" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java/jdk-9/lib/external/powermock-easymock-1.7.1-full.jar!/" />
-    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/AT01/src/weather" />
-    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.side.proportion" value="0.55184335" />
+    <property name="last_opened_file_path" value="C:/Program Files/Java/jdk-9/lib/external/json-simple-1.1_2.jar!/" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="weather" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="openweathermap.input" />
+      <recent name="openweathermap.weather" />
+      <recent name="utility" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\t440s\dev\automated-testing\resources" />
-      <recent name="C:\Users\t440s\dev\automated-testing" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\t440s\dev\openweathermap\src\test\java" />
+      <recent name="C:\Users\t440s\dev\openweathermap\src\main\resources" />
+      <recent name="C:\Users\t440s\dev\openweathermap\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -182,38 +400,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WeatherTest.getCurrentTemperatureTooLow">
-    <configuration name="Weather" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="weather.Weather" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+  <component name="RunManager" selected="Application.WeatherController">
+    <configuration name="All in openweathermap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="openweathermap" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="automated-testing" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
     </configuration>
-    <configuration name="WeatherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileInputTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="openweathermap.input.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="AT01" />
+      <module name="openweathermap" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="weather" />
-      <option name="MAIN_CLASS_NAME" value="weather.WeatherTest" />
+      <option name="PACKAGE_NAME" value="openweathermap.input" />
+      <option name="MAIN_CLASS_NAME" value="openweathermap.input.FileInputTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -227,19 +446,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="WeatherTest.getCoordsPossible" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileInputTest.fileInputReadWriteTestFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="openweathermap.input.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="AT01" />
+      <module name="openweathermap" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="weather" />
-      <option name="MAIN_CLASS_NAME" value="weather.WeatherTest" />
-      <option name="METHOD_NAME" value="getCoordsPossible" />
+      <option name="PACKAGE_NAME" value="openweathermap.input" />
+      <option name="MAIN_CLASS_NAME" value="openweathermap.input.FileInputTest" />
+      <option name="METHOD_NAME" value="fileInputReadWriteTestFile" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -252,19 +471,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="WeatherTest.getCurrentTemperatureTooLow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileInputTest.fileInputReadWriteTestFileContent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="weather.*" />
+          <option name="PATTERN" value="openweathermap.input.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="automated-testing" />
+      <module name="openweathermap" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="weather" />
-      <option name="MAIN_CLASS_NAME" value="weather.WeatherTest" />
-      <option name="METHOD_NAME" value="getCurrentTemperatureTooLow" />
+      <option name="PACKAGE_NAME" value="openweathermap.input" />
+      <option name="MAIN_CLASS_NAME" value="openweathermap.input.FileInputTest" />
+      <option name="METHOD_NAME" value="fileInputReadWriteTestFileContent" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -277,30 +496,24 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="WeatherTest.getMaxMinOfNext3DaysTooBigChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WeatherController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="openweathermap.weather.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="AT01" />
+      <option name="MAIN_CLASS_NAME" value="openweathermap.weather.WeatherController" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="weather" />
-      <option name="MAIN_CLASS_NAME" value="weather.WeatherTest" />
-      <option name="METHOD_NAME" value="getMaxMinOfNext3DaysTooBigChange" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="openweathermap" />
       <envs />
-      <patterns />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
@@ -383,19 +596,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Weather" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.WeatherTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.WeatherTest.getMaxMinOfNext3DaysTooBigChange" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.WeatherTest.getCoordsPossible" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.WeatherTest.getCurrentTemperatureTooLow" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in openweathermap" />
+      <item index="1" class="java.lang.String" itemvalue="Application.WeatherController" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FileInputTest.fileInputReadWriteTestFile" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FileInputTest.fileInputReadWriteTestFileContent" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FileInputTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.WeatherTest.getCurrentTemperatureTooLow" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Weather" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.WeatherTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.WeatherTest.getCoordsPossible" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.WeatherTest.getMaxMinOfNext3DaysTooBigChange" />
+        <item index="0" class="java.lang.String" itemvalue="Application.WeatherController" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in openweathermap" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FileInputTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FileInputTest.fileInputReadWriteTestFileContent" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FileInputTest.fileInputReadWriteTestFile" />
       </list>
     </recent_temporary>
   </component>
@@ -404,87 +617,87 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bc8e50c5-19b4-4bd7-91cf-f455a70ebff0" name="Default" comment="" />
-      <created>1506245677052</created>
+      <changelist id="ea9bec5a-4fca-42ec-82a0-6b67a75bc7e2" name="Default" comment="" />
+      <created>1512493531252</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1506245677052</updated>
-      <workItem from="1506245681321" duration="4710000" />
-      <workItem from="1506282714534" duration="17680000" />
-      <workItem from="1507886179509" duration="5309000" />
-      <workItem from="1508224307151" duration="63000" />
-      <workItem from="1510497166438" duration="10111000" />
+      <updated>1512493531252</updated>
+      <workItem from="1512493536230" duration="16314000" />
+      <workItem from="1512988378296" duration="1916000" />
+      <workItem from="1513107296299" duration="57000" />
+      <workItem from="1513372882701" duration="30258000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 15m 50s.xml">
-      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
+    <history-entry file="All_in_openweathermap - 2017.12.16 at 22h 37m 29s.xml">
+      <configuration name="All in openweathermap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 16m 02s.xml">
-      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
+    <history-entry file="All_in_openweathermap - 2017.12.16 at 22h 38m 28s.xml">
+      <configuration name="All in openweathermap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 16m 19s.xml">
-      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
+    <history-entry file="All_in_openweathermap - 2017.12.16 at 22h 38m 31s.xml">
+      <configuration name="All in openweathermap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 16m 30s.xml">
-      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
+    <history-entry file="All_in_openweathermap - 2017.12.16 at 22h 38m 37s.xml">
+      <configuration name="All in openweathermap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 16m 38s.xml">
-      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
+    <history-entry file="FileInputTest - 2017.12.16 at 22h 35m 34s.xml">
+      <configuration name="FileInputTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 17m 05s.xml">
-      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
+    <history-entry file="FileInputTest - 2017.12.16 at 22h 35m 48s.xml">
+      <configuration name="FileInputTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 18m 35s.xml">
-      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
+    <history-entry file="FileInputTest - 2017.12.16 at 22h 36m 40s.xml">
+      <configuration name="FileInputTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 18m 50s.xml">
-      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
+    <history-entry file="FileInputTest - 2017.12.16 at 22h 36m 59s.xml">
+      <configuration name="FileInputTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 19m 09s.xml">
-      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
+    <history-entry file="FileInputTest_fileInputReadWriteTestFileContent - 2017.12.16 at 22h 34m 59s.xml">
+      <configuration name="FileInputTest.fileInputReadWriteTestFileContent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherTest_getCurrentTemperatureTooLow - 2017.11.13 at 00h 19m 26s.xml">
-      <configuration name="WeatherTest.getCurrentTemperatureTooLow" configurationId="JUnit" />
+    <history-entry file="FileInputTest_fileInputReadWriteTestFileContent - 2017.12.16 at 22h 35m 25s.xml">
+      <configuration name="FileInputTest.fileInputReadWriteTestFileContent" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37873000" />
+    <option name="totallyTimeSpent" value="48545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.48714653" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.51285344" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31351352" sideWeight="0.48971722" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17432432" sideWeight="0.4922879" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2596401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="92" y="92" width="1416" height="676" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32837838" sideWeight="0.4974293" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23650385" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29048842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,116 +707,227 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/weather/Weather.java">
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/net/URL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-          <folding>
-            <marker date="1510524562409" expanded="true" signature="25:477" ph="..." />
-            <marker date="1510524562409" expanded="true" signature="1498:1523" ph="/**...*/" />
-            <marker date="1510524562409" expanded="true" signature="2247:2404" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="2492:3218" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="3309:3829" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="3882:4480" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="4590:4909" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="5025:6218" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="5627:5907" ph="//..." />
-            <marker date="1510524562409" expanded="true" signature="6224:6277" ph="/**...*/" />
-            <marker date="1510524562409" expanded="true" signature="6343:6632" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="6680:6724" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="6769:6867" ph="{...}" />
-          </folding>
+        <state relative-caret-position="6520">
+          <caret line="468" column="11" lean-forward="false" selection-start-line="468" selection-start-column="11" selection-end-line="468" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/weather/Weather.java">
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/net/HttpURLConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-          <folding>
-            <marker date="1510524562409" expanded="true" signature="25:477" ph="..." />
-            <marker date="1510524562409" expanded="true" signature="1498:1523" ph="/**...*/" />
-            <marker date="1510524562409" expanded="true" signature="2247:2404" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="2492:3218" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="3309:3829" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="3882:4480" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="4590:4909" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="5025:6218" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="5627:5907" ph="//..." />
-            <marker date="1510524562409" expanded="true" signature="6224:6277" ph="/**...*/" />
-            <marker date="1510524562409" expanded="true" signature="6343:6632" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="6680:6724" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="6769:6867" ph="{...}" />
-          </folding>
+        <state relative-caret-position="184">
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/weather/Weather.java">
+    <entry file="file://$PROJECT_DIR$/src/main/res/weatherout/Paris.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2220">
-          <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding>
-            <marker date="1510524562409" expanded="true" signature="25:477" ph="..." />
-            <marker date="1510524562409" expanded="true" signature="1498:1523" ph="/**...*/" />
-            <marker date="1510524562409" expanded="true" signature="2247:2404" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="2492:3218" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="3309:3829" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="3882:4480" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="4590:4909" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="5025:6218" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="5627:5907" ph="//..." />
-            <marker date="1510524562409" expanded="true" signature="6224:6277" ph="/**...*/" />
-            <marker date="1510524562409" expanded="true" signature="6343:6632" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="6680:6724" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="6769:6867" ph="{...}" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AT01/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/automated-testing.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/res/weatherout/Moscow.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AT01/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/AT01/src/weather/WeatherRequest.java" />
-    <entry file="file://$PROJECT_DIR$/src/utility/HttpRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/res/weatherout/Bucharest.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utility/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exceptions/WeatherReportNotFoundException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/WeatherReportNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <marker date="1512263795151" expanded="true" signature="21:46" ph="/**...*/" />
+            <marker date="1512263795151" expanded="true" signature="170:201" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AT01/src/input/txt.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/openweathermap/api/weatherclient/HttpURLWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="26" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmep.properties">
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/net/URLConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="853" column="23" lean-forward="false" selection-start-line="853" selection-start-column="23" selection-end-line="853" selection-end-column="23" />
+          <folding>
+            <marker date="1501699556000" expanded="false" signature="0:215" ph="/.../" />
+            <marker date="1501699556000" expanded="true" signature="243:916" ph="..." />
+            <marker date="1501699556000" expanded="true" signature="918:6073" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="6110:68982" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="6116:6564" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="6592:7125" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="7168:7706" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="7816:8622" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="8763:9532" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="9682:10446" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="10491:10687" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="10734:10763" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="10830:10859" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="10900:10929" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="10988:11353" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="11401:11832" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="11520:11794" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="11693:11780" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="11838:12409" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="12465:12603" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="12609:13761" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="13822:14641" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="14689:14846" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="14852:15192" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="15228:15266" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="15272:16115" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="16160:16314" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="16320:16648" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="16681:16716" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="16722:16910" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="16948:17149" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="17155:17392" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="17417:17444" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="17450:17980" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="18015:18145" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="18151:18445" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="18485:18549" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="18555:18832" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="18868:18922" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="18928:19213" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="19253:19311" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="19317:19665" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="19698:19754" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="19760:20118" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="20145:20198" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="20204:20570" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="20605:20667" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="20673:21084" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="21131:21159" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="21165:21495" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="21550:21596" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="21602:22211" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="22271:22439" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="22445:23068" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="23131:23297" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="23303:24024" ph="/**...*/" />
+            <marker date="1501699556000" expanded="false" signature="24029:24061" ph="/deprecation/" />
+            <marker date="1501699556000" expanded="true" signature="24124:24286" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="24292:24663" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="24707:24735" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="24741:25353" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="25394:25422" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="25428:28161" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="28212:28481" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="28222:28396" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="28487:29546" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="29615:29893" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="29625:29799" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="29899:31931" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="31989:32045" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="32051:32674" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="32734:32818" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="32824:33202" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="33264:33349" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="33355:33515" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="33545:33606" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="33612:34118" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="34163:34223" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="34229:34466" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="34499:34530" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="34536:35001" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="35048:35110" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="35116:35356" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="35390:35422" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="35428:35702" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="35773:35859" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="35865:36125" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="36171:36215" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="36221:36505" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="36597:36671" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="36677:37124" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="37184:37235" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="37241:38095" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="38144:38208" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="38214:38455" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="38490:38523" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="38529:38812" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="38870:38946" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="38952:39155" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="39193:39232" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="39237:39803" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="39845:39885" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="39890:40198" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="40261:40313" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="40318:40914" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="40995:41104" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="41109:41733" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="41797:42036" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="42042:42781" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="42843:43071" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="43077:43589" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="43651:43879" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="43886:44340" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="44390:44520" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="44526:44987" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="45047:45197" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="45203:45918" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="46010:46017" ph="{}" />
+            <marker date="1501699556000" expanded="true" signature="46023:46653" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="46733:46761" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="46767:46813" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="46878:47794" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="47883:48156" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="48252:48328" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="48407:49492" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="49722:49954" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="50116:50591" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="50668:51833" ph="{...}" />
+            <marker date="1501699556000" expanded="false" signature="51575:51607" ph="/deprecation/" />
+            <marker date="1501699556000" expanded="true" signature="51914:53253" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="52003:53245" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="52083:53227" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="53259:53444" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="53502:54099" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="54106:54476" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="54527:54791" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="54797:55256" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="55321:55386" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="55392:56434" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="56546:62011" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="62017:62299" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="62371:67575" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="63632:63931" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="63965:64046" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="67581:67750" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="67853:68116" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="68123:68295" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="68396:68848" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="68884:68980" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="69035:69221" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="69176:69219" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/openweathermap/api/weatherclient/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -611,56 +935,1000 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/output.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utility/Unit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/weather/Weather.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="119" column="5" lean-forward="true" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding>
-            <marker date="1510524562409" expanded="true" signature="25:477" ph="..." />
-            <marker date="1510524562409" expanded="true" signature="1498:1523" ph="/**...*/" />
-            <marker date="1510524562409" expanded="true" signature="2247:2404" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="2492:3218" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="3309:3829" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="3882:4480" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="4590:4909" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="5025:6218" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="5627:5907" ph="//..." />
-            <marker date="1510524562409" expanded="true" signature="6224:6277" ph="/**...*/" />
-            <marker date="1510524562409" expanded="true" signature="6343:6632" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="6680:6724" ph="{...}" />
-            <marker date="1510524562409" expanded="true" signature="6769:6867" ph="{...}" />
+            <marker date="1512200543465" expanded="true" signature="18:43" ph="/**...*/" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/test_data1.json">
+    <entry file="file://$PROJECT_DIR$/src/test/java/openweathermap/api/query/QueryBuilderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        <state relative-caret-position="180">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <marker date="1512469165204" expanded="true" signature="42:167" ph="..." />
+            <marker date="1512469165204" expanded="true" signature="170:195" ph="/**...*/" />
+            <marker date="1512469165204" expanded="true" signature="280:688" ph="{...}" />
+            <marker date="1512469165204" expanded="true" signature="742:1178" ph="{...}" />
+            <marker date="1512469165204" expanded="true" signature="1235:1455" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/openweathermap/report/CurrentWeather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <marker date="1513443893397" expanded="true" signature="39:90" ph="..." />
+            <marker date="1513443893397" expanded="true" signature="92:117" ph="/**...*/" />
+            <marker date="1513443893397" expanded="true" signature="242:329" ph="{...}" />
+            <marker date="1513443893397" expanded="true" signature="372:668" ph="{...}" />
+            <marker date="1513443893397" expanded="true" signature="700:780" ph="{...}" />
+            <marker date="1513443893397" expanded="true" signature="814:849" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/openweathermap/api/weatherclient/URLWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <marker date="1512610144455" expanded="true" signature="50:165" ph="..." />
+            <marker date="1512610144455" expanded="true" signature="284:330" ph="{...}" />
+            <marker date="1512610144455" expanded="true" signature="397:466" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/net/URLEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="190" column="25" lean-forward="false" selection-start-line="190" selection-start-column="25" selection-end-line="190" selection-end-column="25" />
+          <folding>
+            <marker date="1501699556000" expanded="false" signature="0:215" ph="/.../" />
+            <marker date="1501699556000" expanded="true" signature="243:523" ph="..." />
+            <marker date="1501699556000" expanded="true" signature="525:2271" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="2429:4758" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="4764:4814" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="4840:4843" ph="{}" />
+            <marker date="1501699556000" expanded="true" signature="4849:5370" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="5429:5669" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="5675:6628" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="6727:10435" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="9795:9899" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/openweathermap/api/query/QueryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+          <folding>
+            <marker date="1513444824300" expanded="true" signature="42:170" ph="..." />
+            <marker date="1513444824300" expanded="true" signature="173:198" ph="/**...*/" />
+            <marker date="1513444824300" expanded="true" signature="275:502" ph="{...}" />
+            <marker date="1513444824300" expanded="true" signature="553:786" ph="{...}" />
+            <marker date="1513444824300" expanded="true" signature="866:1099" ph="{...}" />
+            <marker date="1513444824300" expanded="true" signature="1228:1369" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/openweathermap/api/query/QueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <marker date="1512469144124" expanded="true" signature="57:82" ph="/**...*/" />
+            <marker date="1512469144124" expanded="true" signature="255:262" ph="{}" />
+            <marker date="1512469144124" expanded="true" signature="294:369" ph="{...}" />
+            <marker date="1512469144124" expanded="true" signature="416:474" ph="{...}" />
+            <marker date="1512469144124" expanded="true" signature="531:599" ph="{...}" />
+            <marker date="1512469144124" expanded="true" signature="658:728" ph="{...}" />
+            <marker date="1512469144124" expanded="true" signature="771:827" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/openweathermap/api/query/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1240">
+          <caret line="62" column="40" lean-forward="false" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+          <folding>
+            <marker date="1513444865468" expanded="true" signature="42:129" ph="..." />
+            <marker date="1513444865468" expanded="true" signature="131:156" ph="/**...*/" />
+            <marker date="1513444865468" expanded="true" signature="591:730" ph="{...}" />
+            <marker date="1513444865468" expanded="true" signature="767:1163" ph="{...}" />
+            <marker date="1513444865468" expanded="true" signature="1194:1223" ph="{...}" />
+            <marker date="1513444865468" expanded="true" signature="1259:1293" ph="{...}" />
+            <marker date="1513444865468" expanded="true" signature="1330:1365" ph="{...}" />
+            <marker date="1513444865468" expanded="true" signature="1393:1421" ph="{...}" />
+            <marker date="1513444865468" expanded="true" signature="1468:1509" ph="{...}" />
+            <marker date="1513444865468" expanded="true" signature="1550:1585" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utility/ConsoleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1513445554956" expanded="true" signature="25:86" ph="..." />
+            <marker date="1513445554956" expanded="true" signature="88:113" ph="/**...*/" />
+            <marker date="1513445554956" expanded="true" signature="187:891" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/CoordinateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="48" column="44" lean-forward="false" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+          <folding>
+            <marker date="1513445814394" expanded="true" signature="24:178" ph="..." />
+            <marker date="1513445814394" expanded="true" signature="180:205" ph="/**...*/" />
+            <marker date="1513445814394" expanded="true" signature="307:590" ph="{...}" />
+            <marker date="1513445814394" expanded="true" signature="647:886" ph="{...}" />
+            <marker date="1513445814394" expanded="true" signature="933:1185" ph="{...}" />
+            <marker date="1513445814394" expanded="true" signature="1229:1470" ph="{...}" />
+            <marker date="1513445814394" expanded="true" signature="1577:1777" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/openweathermap/weather/WeatherControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/weather/WeatherTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="51" column="11" lean-forward="true" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+        <state relative-caret-position="260">
+          <caret line="58" column="35" lean-forward="false" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+          <folding>
+            <marker date="1513447256434" expanded="true" signature="89:2388" ph="..." />
+            <marker date="1513447256434" expanded="true" signature="430:1167" ph="..." />
+            <marker date="1513447256434" expanded="true" signature="448:1154" ph="..." />
+            <marker date="1513447256434" expanded="true" signature="469:761" ph="..." />
+            <marker date="1513447256434" expanded="true" signature="624:739" ph="..." />
+            <marker date="1513447256434" expanded="true" signature="782:1135" ph="..." />
+            <marker date="1513447256434" expanded="true" signature="932:1113" ph="..." />
+            <marker date="1513447256434" expanded="true" signature="962:1080" ph="..." />
+            <marker date="1513447256434" expanded="true" signature="1184:1330" ph="..." />
+            <marker date="1513447256434" expanded="true" signature="1349:2376" ph="..." />
+            <marker date="1513447256434" expanded="true" signature="1370:1508" ph="..." />
+            <marker date="1513447256434" expanded="true" signature="1529:1673" ph="..." />
+            <marker date="1513447256434" expanded="true" signature="1694:1906" ph="..." />
+            <marker date="1513447256434" expanded="true" signature="1927:2137" ph="..." />
+            <marker date="1513447256434" expanded="true" signature="2158:2356" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utility/Console.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <marker date="1513445485180" expanded="true" signature="18:43" ph="/**...*/" />
+            <marker date="1513445485180" expanded="true" signature="120:771" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/openweathermap/interact/Interact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="77" column="58" lean-forward="true" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/openweathermap/api/weatherclient/UrlConnectionWeatherClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="108" column="5" lean-forward="true" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
+          <folding>
+            <marker date="1513449054045" expanded="true" signature="50:509" ph="..." />
+            <marker date="1513449054045" expanded="true" signature="511:536" ph="/**...*/" />
+            <marker date="1513449054045" expanded="true" signature="763:1009" ph="{...}" />
+            <marker date="1513449054045" expanded="true" signature="1093:1266" ph="{...}" />
+            <marker date="1513449054045" expanded="true" signature="1423:1551" ph="{...}" />
+            <marker date="1513449054045" expanded="true" signature="1708:1838" ph="{...}" />
+            <marker date="1513449054045" expanded="true" signature="1946:2120" ph="{...}" />
+            <marker date="1513449054045" expanded="true" signature="2224:2423" ph="{...}" />
+            <marker date="1513449054045" expanded="true" signature="2571:2698" ph="{...}" />
+            <marker date="1513449054045" expanded="true" signature="2791:2943" ph="{...}" />
+            <marker date="1513449054045" expanded="true" signature="3070:3227" ph="{...}" />
+            <marker date="1513449054045" expanded="true" signature="3298:3916" ph="{...}" />
+            <marker date="1513449054045" expanded="true" signature="4026:4488" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/weatherout/Tallinn.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4785">
+          <caret line="529" column="12" lean-forward="false" selection-start-line="529" selection-start-column="12" selection-end-line="529" selection-end-column="12" />
+          <folding>
+            <marker date="1501699556000" expanded="false" signature="0:215" ph="/.../" />
+            <marker date="1501699556000" expanded="true" signature="244:556" ph="..." />
+            <marker date="1501699556000" expanded="true" signature="558:12046" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="14618:14681" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="15024:15090" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="15245:15462" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="15468:15545" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="15794:16843" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="15861:16084" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="16298:16439" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="16881:17047" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="17053:17126" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="17495:17661" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="17704:17850" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="17856:17921" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="18039:19816" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="19852:19977" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="20015:20144" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="20171:20441" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="20496:20953" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="20959:21180" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="21217:21300" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="21306:21655" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="21695:21767" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="21773:22267" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="22327:22461" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="22467:22675" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="22725:23035" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="23115:23177" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="23183:23573" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="23635:23721" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="23727:24253" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="24347:24424" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="24520:24625" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="24691:24988" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="25120:25179" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="25185:25655" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="25719:25770" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="25776:26397" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="26469:26546" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="26618:26692" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="26698:26858" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="26893:26960" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="26966:27298" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="27346:27456" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="27527:27610" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="27616:28094" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="28162:28296" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="28379:28427" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="28460:28573" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="28618:28749" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="28782:28915" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="28961:29085" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="29166:29230" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="29330:29460" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="29555:29738" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="29813:30457" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="30609:31320" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="31481:31572" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="31714:31912" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="32176:32908" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="32428:32626" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="33520:37272" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="33796:33892" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="34449:34751" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="34921:35122" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="35220:35609" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="36418:36542" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="37136:37219" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="37538:39187" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="38473:38645" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="38949:39068" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="39446:39993" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="40064:40154" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="40183:40720" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="40745:41074" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="41080:41348" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="41386:41423" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="41429:41600" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="41632:41668" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="41674:41835" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="41885:41965" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="41971:42537" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="42586:42688" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="42694:42977" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="43005:43040" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="43046:43543" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="43588:45140" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="43886:43997" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="44130:44241" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="44965:45052" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="45146:45439" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="45463:45504" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="45510:46251" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="46291:46685" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="46828:47166" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="47172:48158" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="48190:48336" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="48342:48636" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="48666:49610" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="49616:49976" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="50006:50318" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="50324:50847" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="50873:51283" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="51289:51506" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="51532:51590" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="51596:52191" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="52236:52298" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="52304:52932" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="52973:53032" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="53038:53556" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="53601:54110" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="54116:54665" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="54706:55352" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="55358:55694" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="55728:56282" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="56288:56955" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="56985:57569" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="57621:58149" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="58195:58260" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="58266:59177" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="59224:60294" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="59951:60137" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="60300:60962" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="61028:61109" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="61115:62710" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="62777:63365" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="63371:64427" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="64469:64978" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="64984:65433" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="65474:65533" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="65591:66024" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="66062:66108" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="66114:66697" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="66732:66820" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="66826:67218" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="67252:67301" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="67307:68066" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="68109:68593" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="68599:69246" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="69274:69321" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="69327:70999" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="71036:71764" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="71770:72186" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="72221:72271" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="72277:73063" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="73107:73593" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="73599:74266" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="74296:74343" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="74349:76030" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="76069:76804" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="76810:77200" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="77233:77281" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="77287:78044" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="78086:78572" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="78578:78772" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="78826:79485" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="79491:80135" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="80161:80206" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="80212:81886" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="81921:82654" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="82660:83052" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="83086:83135" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="83141:83900" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="83943:84427" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="84433:85080" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="85108:85154" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="85160:86832" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="86869:87565" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="87571:87905" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="87957:89554" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="89560:89934" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="89969:90354" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="90360:91816" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="91846:92391" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="92397:92774" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="92810:93198" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="93204:94657" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="94689:95273" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="95344:95765" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="95805:95860" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="95866:96652" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="96701:97185" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="97191:97894" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="97934:97986" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="97992:99326" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="99375:100106" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="100112:100512" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="100552:100922" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="100928:101883" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="101923:102527" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="102533:103262" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="103290:103488" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="103494:105696" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="105732:105890" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="105968:106820" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="106030:106161" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="106246:106814" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="106826:109421" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="109478:109688" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="109694:110295" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="110353:110482" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="110564:112827" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="110747:110914" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="111004:111981" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="112114:112821" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="112833:112868" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="112910:114100" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="113017:113058" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="113105:113158" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="113205:113346" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="113385:114094" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Coordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1513452170326" expanded="true" signature="23:74" ph="..." />
+            <marker date="1513452170326" expanded="true" signature="76:101" ph="/**...*/" />
+            <marker date="1513452170326" expanded="true" signature="223:329" ph="{...}" />
+            <marker date="1513452170326" expanded="true" signature="392:681" ph="{...}" />
+            <marker date="1513452170326" expanded="true" signature="715:747" ph="{...}" />
+            <marker date="1513452170326" expanded="true" signature="782:815" ph="{...}" />
+            <marker date="1513452170326" expanded="true" signature="847:942" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/openweathermap/report/WeatherReportTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="56" column="60" lean-forward="true" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="60" />
+          <folding>
+            <marker date="1513449054021" expanded="true" signature="40:597" ph="..." />
+            <marker date="1513449054021" expanded="true" signature="599:624" ph="/**...*/" />
+            <marker date="1513449054021" expanded="true" signature="773:983" ph="{...}" />
+            <marker date="1513449054021" expanded="true" signature="1091:1415" ph="{...}" />
+            <marker date="1513449054021" expanded="true" signature="1516:2448" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/test_data/weather.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <marker date="1512395328937" expanded="true" signature="0:651" ph="{&quot;id&quot;: 588409...}" />
+            <marker date="1512395328937" expanded="true" signature="13:53" ph="{&quot;lon&quot;: 24.75...}" />
+            <marker date="1512395328937" expanded="true" signature="68:195" ph="[...]" />
+            <marker date="1512395328937" expanded="true" signature="74:191" ph="{&quot;id&quot;: 300...}" />
+            <marker date="1512395328937" expanded="true" signature="229:329" ph="{&quot;temp&quot;: 2...}" />
+            <marker date="1512395328937" expanded="true" signature="364:402" ph="{&quot;speed&quot;: 5.7...}" />
+            <marker date="1512395328937" expanded="true" signature="416:435" ph="{&quot;all&quot;: 90...}" />
+            <marker date="1512395328937" expanded="true" signature="466:598" ph="{&quot;id&quot;: 5014...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/openweathermap/report/Forecast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <marker date="1513443785083" expanded="true" signature="39:220" ph="..." />
+            <marker date="1513443785083" expanded="true" signature="222:247" ph="/**...*/" />
+            <marker date="1513443785083" expanded="true" signature="576:609" ph="{...}" />
+            <marker date="1513443785083" expanded="true" signature="656:1757" ph="{...}" />
+            <marker date="1513443785083" expanded="true" signature="1791:2045" ph="{...}" />
+            <marker date="1513443785083" expanded="true" signature="2077:2120" ph="{...}" />
+            <marker date="1513443785083" expanded="true" signature="2170:2204" ph="{...}" />
+            <marker date="1513443785083" expanded="true" signature="2254:2288" ph="{...}" />
+            <marker date="1513443785083" expanded="true" signature="2331:2367" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/openweathermap/report/ForecastTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="97" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="97" />
+          <folding>
+            <marker date="1513443785071" expanded="true" signature="39:253" ph="..." />
+            <marker date="1513443785071" expanded="true" signature="256:281" ph="/**...*/" />
+            <marker date="1513443785071" expanded="true" signature="423:567" ph="{...}" />
+            <marker date="1513443785071" expanded="true" signature="622:805" ph="{...}" />
+            <marker date="1513443785071" expanded="true" signature="861:1082" ph="{...}" />
+            <marker date="1513443785071" expanded="true" signature="1144:1299" ph="{...}" />
+            <marker date="1513443785071" expanded="true" signature="1361:1517" ph="{...}" />
+            <marker date="1513443785071" expanded="true" signature="1592:1802" ph="{...}" />
+            <marker date="1513443785071" expanded="true" signature="1855:1954" ph="{...}" />
+            <marker date="1513443785071" expanded="true" signature="2008:2081" ph="{...}" />
+            <marker date="1513443785071" expanded="true" signature="2159:2238" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/openweathermap/report/CurrentWeatherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <marker date="1513443869633" expanded="true" signature="40:209" ph="..." />
+            <marker date="1513443869633" expanded="true" signature="211:236" ph="/**...*/" />
+            <marker date="1513443869633" expanded="true" signature="371:533" ph="{...}" />
+            <marker date="1513443869633" expanded="true" signature="594:659" ph="{...}" />
+            <marker date="1513443869633" expanded="true" signature="720:786" ph="{...}" />
+            <marker date="1513443869633" expanded="true" signature="833:923" ph="{...}" />
+            <marker date="1513443869633" expanded="true" signature="1001:1124" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/openweathermap/report/WeatherReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding>
+            <marker date="1513443441391" expanded="true" signature="39:293" ph="..." />
+            <marker date="1513443441391" expanded="true" signature="295:320" ph="/**...*/" />
+            <marker date="1513443441391" expanded="true" signature="727:1460" ph="{...}" />
+            <marker date="1513443441391" expanded="true" signature="1499:1794" ph="{...}" />
+            <marker date="1513443441391" expanded="true" signature="1841:1878" ph="{...}" />
+            <marker date="1513443441391" expanded="true" signature="1945:1998" ph="{...}" />
+            <marker date="1513443441391" expanded="true" signature="2047:2088" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/openweathermap/api/weatherclient/UrlConnectionWeatherClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <marker date="1513379770910" expanded="true" signature="50:299" ph="..." />
+            <marker date="1513379770910" expanded="true" signature="301:326" ph="/**...*/" />
+            <marker date="1513379770910" expanded="true" signature="473:508" ph="{...}" />
+            <marker date="1513379770910" expanded="true" signature="552:771" ph="{...}" />
+            <marker date="1513379770910" expanded="true" signature="868:1541" ph="{...}" />
+            <marker date="1513379770910" expanded="true" signature="1611:2052" ph="{...}" />
+            <marker date="1513379770910" expanded="true" signature="2152:2254" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/stefanbirkner/system-rules/1.16.0/system-rules-1.16.0.jar!/org/junit/contrib/java/lang/system/SystemOutRule.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <marker date="1513447272206" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513447272206" expanded="true" signature="158:400" ph="..." />
+            <marker date="1513447272206" expanded="true" signature="522:610" ph="{...}" />
+            <marker date="1513447272206" expanded="true" signature="644:708" ph="{...}" />
+            <marker date="1513447272206" expanded="true" signature="760:842" ph="{...}" />
+            <marker date="1513447272206" expanded="true" signature="871:918" ph="{...}" />
+            <marker date="1513447272206" expanded="true" signature="947:999" ph="{...}" />
+            <marker date="1513447272206" expanded="true" signature="1055:1134" ph="{...}" />
+            <marker date="1513447272206" expanded="true" signature="1173:1242" ph="{...}" />
+            <marker date="1513447272206" expanded="true" signature="1312:1377" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/weatherout/Dubai.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/openweathermap/input/StandardInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <marker date="1513453095236" expanded="true" signature="38:242" ph="..." />
+            <marker date="1513453095236" expanded="true" signature="244:269" ph="/**...*/" />
+            <marker date="1513453095236" expanded="true" signature="453:522" ph="{...}" />
+            <marker date="1513453095236" expanded="true" signature="551:1074" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/weatherout/Helsinki.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="91" column="19" lean-forward="false" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
+          <folding>
+            <marker date="1501699556000" expanded="false" signature="0:215" ph="/.../" />
+            <marker date="1501699556000" expanded="true" signature="248:2153" ph="..." />
+            <marker date="1501699556000" expanded="true" signature="2155:2434" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="2483:2486" ph="{}" />
+            <marker date="1501699556000" expanded="true" signature="2492:2565" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="2624:2679" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="2685:2802" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="2864:3053" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="2887:3046" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="3087:4721" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="4832:4900" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="4906:7773" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="7886:7955" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="7961:14963" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="15227:15302" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="15308:17117" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="17236:17388" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="17509:17702" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="17545:17548" ph="{}" />
+            <marker date="1501699556000" expanded="true" signature="17610:17626" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="17708:19263" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="19364:19449" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="19455:21754" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="21868:22491" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="22265:22422" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="22336:22412" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="22497:25220" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="25425:25494" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="25536:27141" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="27245:27474" ph="{...}" />
+            <marker date="1501699556000" expanded="false" signature="27313:27333" ph="&lt;~&gt;" />
+            <marker date="1501699556000" expanded="true" signature="27480:29271" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="29379:29457" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="29463:31690" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="31800:33275" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="33281:33407" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="33576:33784" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="33790:36867" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="37118:37268" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="37274:39038" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="39241:39323" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="39329:41626" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="41839:41991" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="41997:43588" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="43748:43827" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="43833:46126" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="46293:46385" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="46391:48327" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="48407:48486" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="48492:50281" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="50342:50386" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="50392:52121" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="52193:52252" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="52297:57551" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="57660:58006" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="58012:63858" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="63967:64313" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="64347:65588" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="65659:65720" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="65726:66829" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="66901:66958" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="66964:68843" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="68923:68985" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="68991:70042" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="70108:70161" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="70270:71617" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="70607:70870" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="70700:70858" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="70762:70857" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="70994:71611" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="71087:71599" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="71155:71598" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="71623:74203" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="74288:74667" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="74703:76688" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="76955:77035" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="77041:79554" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="79836:79910" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="79916:82669" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="82839:82937" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="82943:85370" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="85530:86077" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="86083:89731" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="89920:90000" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="90006:91618" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="91818:91912" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="91918:93250" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="93419:93672" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="93678:94774" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="94869:95106" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="95112:96641" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="96737:96984" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="96990:97941" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="97994:98267" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="98273:99704" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="99777:100210" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="100216:101676" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="101751:102188" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="102194:103449" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="103562:103661" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="103667:105018" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="105119:105277" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="105283:106095" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="106154:106232" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="106266:106336" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="106399:106789" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="106795:108018" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="108086:108860" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="108866:110478" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="110549:111121" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="111127:111216" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="111289:111458" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="111464:112913" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="112962:113021" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="113027:114476" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="114525:114585" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="114591:116307" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="116358:116420" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="116461:121541" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="121808:124107" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="122776:122945" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="124113:125098" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="125213:125407" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="125560:126642" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="126748:126926" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="126932:127965" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="128047:128118" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="128124:130185" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="130365:130554" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="130560:132134" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="132251:132331" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="132337:132429" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="132529:132756" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="132762:136077" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="136189:137807" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="137058:137300" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="137813:139363" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="139442:139634" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="139640:139871" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="139947:140535" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="140623:141792" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="140771:140890" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="141004:141144" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="141798:142852" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="142921:143267" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="143273:144977" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="145064:145410" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="145416:146503" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="146578:146644" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="146650:148979" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="149088:149527" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="149533:151918" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="152094:152563" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="152569:154093" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="154286:154361" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="154393:156775" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="156841:158300" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="157112:157752" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="157181:157430" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="157492:157738" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="158306:162693" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="162887:163422" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="163428:165164" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="165260:165323" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="165329:167923" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="168201:168833" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="168840:172495" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="172577:173383" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="172587:172882" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="173495:174448" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="173523:173639" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="173689:173816" ph="//..." />
+            <marker date="1501699556000" expanded="true" signature="174535:174921" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="174927:176390" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="176460:176519" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/openweathermap/weather/Weather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <marker date="1513454056546" expanded="true" signature="40:233" ph="..." />
+            <marker date="1513454056546" expanded="true" signature="1551:1576" ph="/**...*/" />
+            <marker date="1513454056546" expanded="true" signature="1831:2059" ph="{...}" />
+            <marker date="1513454056546" expanded="true" signature="2091:2187" ph="{...}" />
+            <marker date="1513454056546" expanded="true" signature="2219:2674" ph="{...}" />
+            <marker date="1513454056546" expanded="true" signature="2726:2769" ph="{...}" />
+            <marker date="1513454056546" expanded="true" signature="2833:2884" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/io/FileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <marker date="1501699556000" expanded="false" signature="0:215" ph="/.../" />
+            <marker date="1501699556000" expanded="true" signature="236:1133" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="1193:1557" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="1616:1670" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="1676:2264" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="2339:2401" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="2407:2752" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="2805:2855" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="2861:3503" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="3572:3630" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="3636:3780" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="3822:3870" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="390" column="18" lean-forward="false" selection-start-line="390" selection-start-column="18" selection-end-line="390" selection-end-column="18" />
+          <folding>
+            <marker date="1501699556000" expanded="false" signature="0:215" ph="/.../" />
+            <marker date="1501699556000" expanded="true" signature="243:435" ph="..." />
+            <marker date="1501699556000" expanded="true" signature="437:1684" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="2022:2074" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="2116:2160" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="2317:2579" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="2625:2820" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="2826:2970" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="3008:3056" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="3062:3124" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="3174:3257" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="3263:3350" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="3394:4677" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="4683:4963" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="5005:5545" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="5551:5670" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="5743:6752" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="6758:9015" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="9086:9699" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="9705:10395" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="10453:12295" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="12301:12906" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="12955:12994" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="13000:13299" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="13348:14243" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="14249:14504" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="14551:15328" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="15334:15424" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="15460:15488" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="15494:16393" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="16454:16763" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="16769:16974" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="17018:17376" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="17421:17658" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="17664:19026" ph="/**...*/" />
+            <marker date="1501699556000" expanded="true" signature="19061:20094" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="19112:19940" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="19210:19592" ph="{...}" />
+            <marker date="1501699556000" expanded="true" signature="19649:19930" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/openweathermap/weather/WeatherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="19" selection-end-column="87" />
+          <folding>
+            <marker date="1513450892850" expanded="true" signature="40:420" ph="..." />
+            <marker date="1513450892850" expanded="true" signature="422:447" ph="/**...*/" />
+            <marker date="1513450892850" expanded="true" signature="713:1036" ph="{...}" />
+            <marker date="1513450892850" expanded="true" signature="1086:1411" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/weatherout/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/test_data/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/test_data/xtest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/test_data/wreport.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/openweathermap/input/StandardInputTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="69" column="8" lean-forward="false" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="127" />
+          <folding>
+            <marker date="1513453434896" expanded="true" signature="38:714" ph="..." />
+            <marker date="1513453434896" expanded="true" signature="716:741" ph="/**...*/" />
+            <marker date="1513453434896" expanded="true" signature="1078:1288" ph="{...}" />
+            <marker date="1513453434896" expanded="true" signature="1332:1590" ph="{...}" />
+            <marker date="1513453434896" expanded="true" signature="1674:2642" ph="{...}" />
+            <marker date="1513453434896" expanded="true" signature="2741:3289" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/openweathermap/input/FileInputTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="49" column="70" lean-forward="true" selection-start-line="49" selection-start-column="70" selection-end-line="49" selection-end-column="70" />
+          <folding>
+            <marker date="1513456615295" expanded="true" signature="38:716" ph="..." />
+            <marker date="1513456615295" expanded="true" signature="718:743" ph="/**...*/" />
+            <marker date="1513456615295" expanded="true" signature="1074:1814" ph="{...}" />
+            <marker date="1513456615295" expanded="true" signature="1895:2160" ph="{...}" />
+            <marker date="1513456615295" expanded="true" signature="2229:2434" ph="{...}" />
+            <marker date="1513456615295" expanded="true" signature="2493:2569" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/openweathermap/input/FileInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1513456701760" expanded="true" signature="38:358" ph="..." />
+            <marker date="1513456701760" expanded="true" signature="360:385" ph="/**...*/" />
+            <marker date="1513456701760" expanded="true" signature="687:887" ph="{...}" />
+            <marker date="1513456701760" expanded="true" signature="917:1790" ph="{...}" />
+            <marker date="1513456701760" expanded="true" signature="1833:1862" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/openweathermap/weather/WeatherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -671,10 +1939,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>openweathermap:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.55184335" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -686,7 +1956,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.55184335" />
               </list>
             </option>
           </splitter-proportions>
@@ -698,7 +1968,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.55184335" />
               </list>
             </option>
           </splitter-proportions>
@@ -710,7 +1980,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.55184335" />
               </list>
             </option>
           </splitter-proportions>
@@ -718,11 +1988,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>automated-testing</last-edited>
+          <last-edited>openweathermap</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.55184335" />
               </list>
             </option>
           </splitter-proportions>
@@ -742,11 +2012,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>java-json</last-edited>
+          <last-edited>Maven: org.json:json:20160810</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.55184335" />
               </list>
             </option>
           </splitter-proportions>

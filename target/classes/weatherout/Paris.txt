@@ -1,0 +1,8 @@
+City: Paris
+Coordinates: lat: 48.86, lon: 2.35
+Current temperature: 2℃
+
+Forecast for the next 3 days:
+2017-12-16: min temp: 0℃, max temp: 0℃
+2017-12-17: min temp: 3℃, max temp: 5℃
+2017-12-18: min temp: 1℃, max temp: 9℃

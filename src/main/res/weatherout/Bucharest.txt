@@ -1,0 +1,8 @@
+City: Bucharest
+Coordinates: lat: 44.44, lon: 26.10
+Current temperature: 9℃
+
+Forecast for the next 3 days:
+2017-12-16: min temp: 7℃, max temp: 7℃
+2017-12-17: min temp: 2℃, max temp: 5℃
+2017-12-18: min temp: 0℃, max temp: 2℃

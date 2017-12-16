@@ -1,0 +1,8 @@
+City: Dubai
+Coordinates: lat: 25.27, lon: 55.30
+Current temperature: 20℃
+
+Forecast for the next 3 days:
+2017-12-16: min temp: 19℃, max temp: 19℃
+2017-12-17: min temp: 16℃, max temp: 19℃
+2017-12-18: min temp: 15℃, max temp: 20℃
